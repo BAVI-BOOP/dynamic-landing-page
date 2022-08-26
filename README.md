@@ -14,6 +14,7 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Skeleton](#skeleton)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -35,18 +36,32 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-<a href="https://bavi-boop.github.io/clipboard-landing-page-website/"><img src="screenshot.jpg" alt="screenshot" width="720" height="620"></a>
+<a href="https://bavi-boop.github.io/dynamic-landing-page/"><img src="dynamic.gif" alt="screenshot" width="800" height="620"></a>
 </p>
 
 
 ### Links
 
-- [live site URL here: ([Live Website)](https://bavi-boop.github.io/clipboard-landing-page-website/)
+- [live site URL here: ([Live Website)](https://bavi-boop.github.io/dynamic-landing-page/)
+
+## Project Skeleton 
+
+```
+parallax-website(folder)
+
+|----README.md                   
+|----images      
+     | photos...
+|----index.html  
+|----style.css   
+|----images
+```
 
 ## My process
 
 ### Built with
-
+- JS DOM
+- JS Functions
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -59,7 +74,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use flexboxed, media queries, html elements and many more.
+I learned how to use Javascript DOM Manipulation, flexboxes, media queries, html elements and many more.
 
 To see how you can add code snippets, see below:
 
@@ -72,8 +87,12 @@ To see how you can add code snippets, see below:
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-      <div class="meta-container last">
+        if(e.which ==13 || e.keyCode == 13) {
+            localStorage.setItem("names", e.target.innerText);
+            names.blur();
+        }else {
+            localStorage.setItem("names", e.target.innerText);
+        }
 }
 ```
 
@@ -88,7 +107,7 @@ I will build backend and extra pages for this website in the future.
 
 - [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
 - [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
-
+- [Tutorial](https://www.youtube.com/watch?v=fSTQzlprGLI) - This helped me to complete the project. You can have a look at the tutorial
 
 ## Author
 
