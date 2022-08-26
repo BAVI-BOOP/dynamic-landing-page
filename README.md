@@ -5,7 +5,7 @@
 
 
 
-# Clipboard landing page 
+# Dynamic Landing Page
 
 
 ## Table of contents
@@ -54,6 +54,7 @@ parallax-website(folder)
      | photos...
 |----index.html  
 |----style.css   
+|--- script.js
 |----images
 ```
 
