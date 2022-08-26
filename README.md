@@ -36,7 +36,7 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-<a href="https://bavi-boop.github.io/dynamic-landing-page/"><img src="dynamic.gif" alt="screenshot" width="720" height="590"></a>
+<a href="https://bavi-boop.github.io/dynamic-landing-page/"><img src="dynamic.gif" alt="screenshot" width="750" height="590"></a>
 </p>
 
 
